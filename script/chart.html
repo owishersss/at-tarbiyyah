@@ -6,13 +6,66 @@
     <link rel="shortcut icon" href=".ico">
     <link rel="stylesheet" href="../style/stylesheet.css" type="text/css">
     <script src="../javascript/script.js"></script>
+    
+    <style media="screen">
+    .container {
+      position: relative;
+      width: 100%;
+      text-align: center;
+    }
+
+    .image {
+      opacity: 1;
+      display: block;
+      width: 100%;
+      height: auto;
+      transition: .5s ease;
+      backface-visibility: hidden;
+    }
+
+    .middle {
+      transition: .5s ease;
+      opacity: 0;
+      position: absolute;
+      top: 50%;
+      left: 34%;
+      width: 100%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      text-align: center;
+    }
+
+    .container:hover .image {
+      opacity: 0.3;
+    }
+
+    .container:hover .middle {
+      opacity: 1;
+    }
+
+    .text {
+      background-color: #3ECCB5;
+      color: white;
+      font-size: 16px;
+      padding: 50px;
+      width: 100%;
+    }
+
+    .pos {
+      background-color: lightgrey;
+      width: 300px;
+      border: 15px solid #3ECCB5;
+      padding: 40px;
+      margin: 20px;
+    }
+    </style>
   </head>
 
   <body>
 
 
 <div class="topnav" id="myTopnav">
-  <span>Surau</span><span class="tarbiyyah">At-Tarbiyyah</span>
+  <img src="../images/logo.png"><span>Surau</span><span class="tarbiyyah">At-Tarbiyyah</span>
   <div class="search">
   <script>
   (function() {
@@ -46,6 +99,142 @@
   <div id="main">
     <p style="font-size:30px;cursor:pointer" onclick="openNav()"><img src="../images/sidebut.png"></p>
   </div>
+    <div class="pos" style="margin-left: 34%">
+    <div class="container">
+      <h3>Haji Zainal Abidin Ismail</h3>
+      <div class="middle">
+        <div class="text">Pengerusi</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="pos" style="margin-left: 34%">
+    <div class="container">
+      <h3>Nazrin Elias</h3>
+      <div class="middle">
+        <div class="text">Imam</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="pos" style="margin-left: 34%">
+    <div class="container">
+      <h3>Zulkarnain Ghazali</h3>
+      <div class="middle">
+        <div class="text">Bilal</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="pos" style="margin-left: 34%">
+    <div class="container">
+      <h3>Ab Rozi Surani</h3>
+      <div class="middle">
+        <div class="text">Siak</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="pos" style="margin-left: 34%">
+    <div class="container">
+      <h3>Haji Mohamad Zulkifli Maulut</h3>
+      <div class="middle">
+        <div class="text">Setiausaha</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="pos" style="margin-left: 34%">
+    <div class="container">
+      <h3>Rosli Alias</h3>
+      <div class="middle">
+        <div class="text">Bendahari</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="pos" style="margin-left: 34%">
+    <div class="container">
+      <h3>Samsuddin Mohamad Dani</h3>
+      <div class="middle">
+        <div class="text">Wakil Pemuda</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="pos" style="margin-left: 34%">
+    <div class="container">
+      <h3>Hajah Sapiah Kamin</h3>
+      <div class="middle">
+        <div class="text">Wakil Wanita</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="pos" style="margin-left: 34%">
+    <div class="container">
+      <h3>Zuliana Baharudin</h3>
+      <div class="middle">
+        <div class="text">Bilal Jenazah Wanita</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="pos" style="margin-left: 34%">
+    <div class="container">
+      <h3>Haji Deraman Haji Lemat</h3>
+      <div class="middle">
+        <div class="text">Akauntan 1</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="pos" style="margin-left: 34%">
+    <div class="container">
+      <h3>Haji Harun Haji Lebai Said</h3>
+      <div class="middle">
+        <div class="text">Akauntan 2</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="pos" style="margin-left: 34%">
+    <div class="container">
+      <h3>Napi Teking</h3>
+      <div class="middle">
+        <div class="text">AJK</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="pos" style="margin-left: 34%">
+    <div class="container">
+      <h3>Mohd Khairi Abd Rahman</h3>
+      <div class="middle">
+        <div class="text">AJK</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="pos" style="margin-left: 34%">
+    <div class="container">
+      <h3>Anuar Ibrahim</h3>
+      <div class="middle">
+        <div class="text">AJK</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="pos" style="margin-left: 34%">
+    <div class="container">
+      <h3>Mohd Zahir Abd Rahman</h3>
+      <div class="middle">
+        <div class="text">AJK</div>
+      </div>
+    </div>
+  </div>
+
+  <br><br><br><br><br>
 
 
   </body>
