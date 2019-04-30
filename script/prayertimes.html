@@ -8,32 +8,30 @@
     <script src="../javascript/script.js"></script>
 
 <style>
+.content{
+  text-align: center;
+}
+
 #iframe
 {
   position:relative;
-  margin-left: 38%;
-  margin-right: 13%;
-  margin-bottom:13%;
-  margin-top: 8%;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 #g2hFrame
 {
   position:relative;
-  margin-left:40.7%;
-  margin-right: 13%;
-  margin-bottom: 13%;
-  margin-top: 8%;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 .pt
 {
   position:relative;
-  margin-left: 38%;
   font-size:40px;
   color:#3eccb5;
 }
-
 </style>
 
 
@@ -77,15 +75,17 @@
     <p style="font-size:30px;cursor:pointer" onclick="openNav()"><img src="../images/sidebut.png"></p>
   </div>
 
-<div class="left">
-<div class="pt" style="margin-left:40%;color:#3ECCB5;">Prayer times</div>
-<iframe id="iframe" style="width: 300px; height: 358px; border: 1px solid #ddd;" frameborder="0" scrolling="no" src="https://www.islamicfinder.org/prayer-widget/1735158/shafi/9/0/20.0/18.0"> </iframe>
-</div>
+<div class="content">
+  <div class="left">
+  <div class="pt" style="color:#3ECCB5;">Prayer times</div>
+  <iframe id="iframe" style="width: 300px; height: 358px; border: 1px solid #ddd;" frameborder="0" scrolling="no" src="https://www.islamicfinder.org/prayer-widget/1735158/shafi/9/0/20.0/18.0"> </iframe>
+  </div>
 
-<div class="right">
-<div class="pt">Islamic Calendar</div>
-<iframe id="g2hFrame" style="width: 200px; height: 278px; border: 1px solid #ddd;"
-text- frameborder="0" scrolling="no" src="https://www.islamicfinder.org/islamic-calendar/widgetGregorian?type=Gregorian"> </iframe>
+  <div class="right">
+  <div class="pt">Islamic Calendar</div>
+  <iframe id="g2hFrame" style="width: 200px; height: 278px; border: 1px solid #ddd;"
+  text- frameborder="0" scrolling="no" src="https://www.islamicfinder.org/islamic-calendar/widgetGregorian?type=Gregorian"> </iframe>
+</div>
 
 
   </body>
