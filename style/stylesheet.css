@@ -26,6 +26,13 @@ body {
   left:35%;
 }
 
+.search{
+  position: absolute;
+  right: 2%;
+  top: 3%;
+  width: 25%;
+}
+
  span.tarbiyyah
 {
   color:#3ECCB5;
